@@ -1,4 +1,4 @@
-import { Image, StyleSheet } from "react-native-web";
+import { Image, StyleSheet } from "react-native";
 
 export default function ImageViewer({ placeholderImageSource }) {
   return <Image source={placeholderImageSource} style={StyleSheet.image} />;
